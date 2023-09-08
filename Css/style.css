@@ -1,7 +1,3 @@
-/* this is the deployed link:
-https://hng-stage1-frontend-task.netlify.app */
-/* https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php */
-
 
 *{
     margin: 0;
@@ -11,10 +7,9 @@ https://hng-stage1-frontend-task.netlify.app */
 /* styling the body interface */
 
 body{
-    background: #8a2aeb;
+    background: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #FFF;
     margin-left: 30em;
     padding-top: 8em;
 }
@@ -22,14 +17,13 @@ body{
 .image_radius{
     border-radius: 50%;
     width: 200px;
-    height: 250px;
+    height: 200px;
+    margin-bottom: 1em;
 }
 
 .container h3{
-    /* font-size: 10px; */
-    color: #cccaccac;
-    margin-bottom: 1em;
-    padding-bottom: 2em;
+    color: #000;
+    line-height: 2;
     text-transform: capitalize;
 }
 
@@ -39,8 +33,8 @@ body{
 }
 
 .container p{
-    padding-top: 2em;
-    color: #cccaccac; 
+    line-height: 2;
+    color: #000;
     text-transform: capitalize;
 }
 
@@ -65,28 +59,23 @@ a{
 @media (max-width: 768px) {
 
     body{
-        background: #8a2aeb;
         font-size: 13px;
         margin-left: 5em;
         padding-top: 3em;
     }
 
     .image_radius{
-        border-radius: 50%;
         width: 200px;
-        height: 250px;
+        height: 200px;
         margin-right: 3em;
     }
 
 
     .container li{
-        border: 1px solid #cccaccac;
         width: 100px;
-        list-style: none;
-        text-align: center;
-        height: 40px;
         margin-top: 2em;
         padding-top: 0.8em;
+        margin-left: 3em;
     }
     
 }
