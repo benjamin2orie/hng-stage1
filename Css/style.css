@@ -1,0 +1,22 @@
+/* this is the deployed link:
+https://hng-stage1-frontend-task.netlify.app */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling the body interface */
+
+body{
+    background: #8a2aeb;
+}
+
+.image_radius{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    /* object-fit: contain; */
+   /* object-position: center; */
+}
